@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web con Datos Guardados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📝 Guardar Datos en la Web</h1>
+        <p>Escribe algo abajo. Al presionar guardar, se quedará almacenado incluso si recargas la página.</p>
+        
+        <form id="formulario-datos">
+            <input type="text" id="input-texto" placeholder="Escribe tu nota aquí..." required>
+            <button type="submit">Guardar Datos</button>
+        </form>
+
+        <h2>Datos Guardados:</h2>
+        <ul id="lista-datos"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
